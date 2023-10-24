@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <style type="text/css">
         body {
             margin: 0;
@@ -29,13 +29,12 @@
     <div class="div1">
         <h1>LOGIN</h1>
     </div>
-    <form action="loginservlet" method="post">
+    <form action="loginservlet2" method="post">
         <table>
             <tr><td>Username</td><td><input type="text" name="txtname"></td></tr>
-            <tr><td>password</td><td><input type="password" name="txtpassword"></td></tr>
-            <tr><td><input type="submit" value="submit"></td><td><input type="reset"></td></tr>
+            <tr><td>Password</td><td><input type="password" name="txtpassword"></td></tr>
+            <tr><td><input type="submit" value="Submit"></td><td><input type="reset"></td></tr>
         </table>
     </form>
 </body>
 </html>
-    
